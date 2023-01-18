@@ -25,7 +25,8 @@ function Footer() {
                   href="https://auth.geeksforgeeks.org/user/shxbh_018"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  style={{ color: "white" }}
+                 
                 >
                   <SiGeeksforgeeks />
                 </a>
@@ -35,7 +36,8 @@ function Footer() {
                   href="https://leetcode.com/shxbh_018/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  style={{ color: "white" }}
+                  
                 >
                   <SiLeetcode />
                 </a>
