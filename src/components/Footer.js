@@ -4,6 +4,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import {SiLeetcode, SiGeeksforgeeks} from 'react-icons/si'
 
 function Footer() {
   let date = new Date();
@@ -19,6 +20,26 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+           <li className="social-icons">
+                <a
+                  href="https://auth.geeksforgeeks.org/user/shxbh_018"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGeeksforgeeks />
+                </a>
+            </li>
+            <li className="social-icons">
+                <a
+                  href="https://leetcode.com/shxbh_018/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
+                </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/ShubhDeo"

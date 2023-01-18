@@ -4,9 +4,9 @@ import myImg from "../../Assets/myImg.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import {SiLeetcode, SiGeeksforgeeks} from 'react-icons/si'
 
 function Home2() {
   return (
@@ -63,6 +63,26 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://leetcode.com/shxbh_018/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://auth.geeksforgeeks.org/user/shxbh_018"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGeeksforgeeks />
+                </a>
+            </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/ShubhDeo"
