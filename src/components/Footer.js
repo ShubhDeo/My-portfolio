@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
                 <a
-                  href="https://leetcode.com/shxbh_018/"
+                  href="https://leetcode.com/mell0/"
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: "white" }}
